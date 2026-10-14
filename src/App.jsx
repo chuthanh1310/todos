@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Sortable from "sortablejs";
 import { todoApi } from "./services/todoApi";
-import { todoStore } from "./store/todoStore";
+import { todoStore } from "./Store/todoStore";
 import "./App.css";
 
 const CheckIcon = () => (
