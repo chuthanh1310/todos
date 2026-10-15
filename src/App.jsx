@@ -255,10 +255,9 @@ function App() {
           </div>
           <div>
             <h1 className="todo-title">Todo List</h1>
-            <p className="todo-subtitle">Quản lý công việc của bạn mỗi ngày</p>
           </div>
         </div>
-        <div className="todo-date">Hôm nay: {today}</div>
+        
       </header>
 
       {/* Form thêm công việc */}
